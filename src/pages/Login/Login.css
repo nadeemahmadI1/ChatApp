@@ -1,0 +1,74 @@
+/* Base styles */
+.login {
+  min-height: 100vh;
+  background: url(/background.png) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 20px; /* Add some padding to handle small screen issues */
+}
+
+.login .logo {
+  width: max(20vw, 200px);
+  padding: 10px;
+}
+
+.login-form {
+  background-color: aliceblue;
+  padding: 20px 30px;
+  margin-right: 10px;
+  display: flex;
+  max-width: 400px;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgb(199, 208, 199);
+}
+
+.form-input {
+  padding: 8px 10px;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  outline-color: #077eff;
+}
+
+.login-form button {
+  padding: 10px;
+  background-color: #077eff;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #2b70b9;
+}
+
+.login-term {
+  display: flex;
+  gap: 5px;
+  font-size: 16px;
+  color: #808080;
+}
+
+.login-forget {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.login-toggle {
+  font-size: 13px;
+  color: #5c5c5c;
+}
+
+.login-toggle span {
+  font-weight: 500;
+  color: #077eff;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
